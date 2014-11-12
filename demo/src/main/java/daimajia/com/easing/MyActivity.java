@@ -1,5 +1,11 @@
 package daimajia.com.easing;
 
+import com.daimajia.easing.BaseEasingMethod;
+import com.daimajia.easing.Glider;
+import com.daimajia.easing.Skill;
+
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -10,12 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
-import com.daimajia.easing.BaseEasingMethod;
-import com.daimajia.easing.Glider;
-import com.daimajia.easing.Skill;
-import com.nineoldandroids.animation.AnimatorSet;
-import com.nineoldandroids.animation.ObjectAnimator;
 
 import daimajia.com.eaing.R;
 
